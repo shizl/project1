@@ -1,0 +1,7 @@
+celerie.render:
+  path: '/celerie'
+  defaults:
+    _controller: '\Drupal\celerie\Controller\celerieController::ajaxcelerie'
+   
+  requirements:
+    _permission: 'access content'

@@ -1,0 +1,10 @@
+cover.render:
+  title: cover
+  route_name: cover.render
+  hidden: 1
+
+
+filter.render:
+  title: filter
+  route_name: filter.render
+  hidden: 1

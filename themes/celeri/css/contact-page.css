@@ -1,0 +1,53 @@
+.contact-info h2{
+color:#5260FE;
+margin-bottom:20px;
+font-family:Georgia;
+}
+.contact-info p{
+color:black;
+font-family:CenturyGothic;
+}
+@media screen and (max-width:768px){
+.contact-info{
+margin-right:20px !important;
+}
+}
+@media screen and (max-width:667px){
+.contact-info{
+margin-right:70px !important	;
+}
+#contact-info{
+float:right;
+margin-right:0px !important;
+clear:none !important;
+}
+#contact-main-content{
+min-height:1350px !important;
+}
+}
+@media screen and (max-width:568px){
+.contact-info{
+width:100%;
+text-align:center;
+}
+#contact-main-content{
+min-height:2525px !important;
+}
+}
+@media screen and (max-width:480px){
+#contact-main-content{
+text-align:center;
+}
+.contact-info{
+width:100%;
+}
+#contact-main-content{
+min-height:2525px !important;
+}
+}
+@media screen and (max-width:320px){
+#contact-main-content{
+text-align:center;
+min-height:2525px !important;
+}
+}

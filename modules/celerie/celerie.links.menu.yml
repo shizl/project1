@@ -1,0 +1,4 @@
+celerie.render:
+  title: celerie
+  route_name: celerie.render
+  hidden: 1

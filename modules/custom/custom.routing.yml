@@ -1,0 +1,13 @@
+cover.render:
+  path: '/coverajax'
+  defaults:
+    _controller: '\Drupal\custom\Controller\customController::coverajax'   
+  requirements:
+    _permission: 'access content'
+
+filter.render:
+  path: '/filterajax'
+  defaults:
+    _controller: '\Drupal\custom\Controller\customController::filterajax'
+  requirements:
+    _permission: 'access content'
