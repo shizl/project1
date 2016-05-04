@@ -34,6 +34,7 @@ class BannerBlock extends BlockBase{
 	  );
   }
 
+
 public function blockContent(){
 
  $output = '<div class="responsive-slider" data-spy="responsive-slider" data-autoplay="true">
